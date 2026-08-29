@@ -1,6 +1,6 @@
 local HttpService = game:GetService("HttpService")
 
-local url = ""
+local url = "https://raw.githubusercontent.com/Fr0stPython/Santi-cheat/refs/heads/main/Tes"
 
 local response = HttpService:GetAsynce(url)
 
